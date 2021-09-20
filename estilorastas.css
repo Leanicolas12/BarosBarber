@@ -1,0 +1,28 @@
+body{background-color: white;
+background-image: url(fotos/fondo.jpeg);
+background-size:1500px;
+opacity: 95%}
+
+header{background-color: white;
+text-align: center;
+margin: 2%;
+padding: 1%;
+border: 8px solid black;}
+
+section{background-color: white;
+  float: left;
+  width:45%;
+margin: 2%;
+padding: 1%;
+border: 8px solid black;}
+
+div.trabajos{ background-color: white;
+float: left;
+width: 40%;
+height:40%;
+border: 8px solid black;
+text-align: center;}
+
+footer{ background: white; clear: both; text-align: left; padding: 2%;
+     border: 5px solid black; box-sizing: border-box;
+   overflow: auto;}
