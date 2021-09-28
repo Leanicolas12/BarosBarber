@@ -1,0 +1,70 @@
+body{background-color: white;
+  background-image: url(fotos/frente.jpg);opacity: 90%;
+background-size: 1500px}
+
+header {background-color: #253131;
+margin: 2%;
+padding: 1%;
+border: 8px solid black;
+text-align: center;
+}
+section {background:#253131;
+float: left;
+width: 50%;
+margin: 5px;
+overflow: auto;
+padding: inherit;
+border-color: black;
+border: dotted;
+border: 3px solid black;
+font-size: 25px;
+font-weight: bold;}
+
+aside.horarios {background: #253131;
+  float: left;
+width: 40%;
+padding: inherit;
+overflow: auto;
+border-color: black;
+border: dotted;
+border: 3px solid black;
+font-size: 25px;
+font-weight: bold;
+margin: 5px;
+}
+.NH{text-align: center;}
+.NH::before {content: "~";
+}
+.NH::after{content: "~"}
+
+.enviar:hover {background-color: yellow;
+color: blue;
+font-size: 45px;}
+
+img.wp:hover{ opacity: 80%;
+background-color: yellow;}
+
+section:hover {font-size: 200%}
+
+.subtitulo {text-align: center;
+}
+
+a.volver:hover{background-color: blue;
+font-family: cursive;
+font-size: 100%}
+a.volver{ font-family: cursive;
+color: white;
+}
+.lunes:hover {font-size: 150%;}
+.martes:hover {font-size: 150%;}
+.sabado:hover {font-size: 150%;}
+.domingo:hover {font-size: 150%;}
+
+footer { background: #253131; clear: both; text-align: left; padding: 2%;
+     border: 5px solid black; box-sizing: border-box;}
+     .contacto{ font-family: cursive;font-size: 150%}
+     .icono {position: fixed;
+     top: 20%; right: 1%;}
+.redes{height: 0,1%;font-family: cursive; font-size: 150%}
+.mapa { float: center;width: 100px; height: 100px;
+}
