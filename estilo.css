@@ -1,3 +1,4 @@
+
 @font-face { font-family: "titulos";
 src: url("../fuentes/alfa.ttf")
  format("truetype");
@@ -9,7 +10,7 @@ src: url("../fuentes/regular.ttf")
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
 
 
-body{background-color: white;
+body{
   background-image: url(fotos/frente.jpg);opacity: 90%;
 background-size: 1500px}
 
@@ -21,11 +22,16 @@ border: 8px solid black;
 
 .TITULO{color: white; font-family: "titulos"; text-align: center;font-size: 3em; text-shadow: 5px; text-decoration: overline;}
 
-nav {font-family: cursive;
+nav { display: flex;
+justify-content: space-between;
+  font-family: cursive;
 background-color: #253131;
 font-size: 150%}
 
-.letras {font-family: "regular"; font-size:2rem; color: white;}
+.letras{
+  font-family: "regular";
+ font-size:2rem;
+ color: white;}
 
 section {background:#253131;
 float: left;
@@ -37,8 +43,15 @@ border-color: black;
 border: dotted;
 border: 5px solid black}
 
-.subtitulo {text-align: center; text-decoration: inherit; font-family: "titulos"; font-size: 30px;}
-.lista {font-family: 'Archivo Black', sans-serif; text-weight font-weight: bold; font-size: 20px;}
+.subtitulo {text-align: center;
+  text-decoration: inherit;
+   font-family: "titulos";
+    font-size: 30px;}
+.lista {font-family: 'Archivo Black', sans-serif;
+ text-weight font-weight: bold;
+  font-size: 20px;}
+
+
 
 aside.FOTOS { background: #253131;
 box-sizing: border-box;
@@ -51,11 +64,33 @@ margin: 5%;}
 .corte{width:20vw;}
 .tatu {width:35%;}
 
+@media (max-width:575px) {
+  aside.FOTOS {display: none}
+}
+
+@media (max-width:745px) {
+  .rasta, .tatu{display: none}
+}
+@media (max-width: 575px){
+  section {width: 75%}
+}
+
+}
 footer { background: #253131; clear: both; text-align: left; padding: 2%;
-     border: 5px solid black; box-sizing: border-box;}
-     .contacto{ font-family: "titulos";font-size: 150%}
+     border: 5px solid black;
+      box-sizing: border-box;
+    }
+
+     .contacto{ font-family: "titulos";font-size: 150%
+   }
+
      .icono {position: fixed;
      top: 20%; right: 1%;}
+
 .redes{height: 0,1%;font-family: cursive; font-size: 150%}
+
 .mapa { float: center;width: 200px; height: 200px;
+}
+
+
 }

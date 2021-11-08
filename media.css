@@ -1,12 +1,26 @@
-body {background-color: blue
-}
-header{font-family: cursive;
-font-size: 1500px
-color:blue
-}
-@media screen  (max-width:500px){
-  .mediaquerin {display: none
-  }
+
+body {
+  background-image: url(fotos/fondopelu.jpg);
+background-size: 500px}
+
+div.flex-container{ display: flex;
+  justify-content: center;
+padding: 10px;
+background: white;
+  opacity: 90%;
+  font-family: cursive;
+  font-size: 25px;
 }
 
+div.prodctos{ background: white}
+
+div.container {
+opacity: 80%;
+box-sizing: border-box;
+margin: 1%;
+}
+
+.caja {
+  background-color: white;
+  opacity: 90%;
 }
